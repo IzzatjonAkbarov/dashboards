@@ -1,16 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-import {
-  BarChart,
-  Clock,
-  Disc,
-  Library,
-  ListMusic,
-  Music,
-  PlayCircle,
-  Radio,
-  User,
-} from "lucide-react";
+
 import Sidebar from "@/components/sections/Register/Sidebar";
 import TopBar from "@/components/sections/TopBar";
 

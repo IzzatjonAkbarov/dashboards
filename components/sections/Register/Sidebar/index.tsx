@@ -1,7 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
-import { useRouter } from "next/router"; // Import useRouter from next/router
 
 import {
   BarChart,
@@ -19,7 +18,12 @@ import Link from "next/link";
 const Sidebar = () => {
   const [activeNavItem, setActiveNavItem] = useState("/dashboard");
 
-  const navButton = (id: string, label: string, Icon: any, path: string) => (
+  const navButton = (
+    id: string,
+    label: string,
+    Icon: React.ElementType,
+    path: string
+  ) => (
     <Link
       href={`${path}`}
       onClick={() => {

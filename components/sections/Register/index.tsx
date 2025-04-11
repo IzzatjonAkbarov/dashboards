@@ -3,7 +3,6 @@ import { GithubIcon } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useRouter } from "next/router";
 
 const SignUp = () => {
   const register = (e: React.FormEvent<HTMLFormElement>) => {
@@ -12,8 +11,6 @@ const SignUp = () => {
     const email = formData.get("email") as string;
 
     if (email?.trim() === "abc@gmail.com") {
-      const router = useRouter();
-      router.push("/home");
     }
   };
   return (
@@ -38,8 +35,8 @@ const SignUp = () => {
 
         <div className="max-w-md">
           <blockquote className="text-2xl font-medium mb-4">
-            "This Library has saved me countless hours of work and helped me
-            deliver stunning designs to my clients faster than ever before."
+            This Library has saved me countless hours of work and helped me
+            deliver stunning designs to my clients faster than ever before.
           </blockquote>
           <cite className="text-sm">Sofia Davis</cite>
         </div>
