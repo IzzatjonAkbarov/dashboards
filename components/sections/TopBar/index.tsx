@@ -13,7 +13,7 @@ const TopBar = () => {
         <button
           onClick={() => setActiveTab("music")}
           className={cn(
-            "px-4 py-1.5 text-sm rounded-md",
+            "px-2 py-1.5 text-sm rounded-md",
             activeTab === "music"
               ? "bg-white shadow-sm"
               : "text-gray-500 hover:text-gray-700"
@@ -42,9 +42,9 @@ const TopBar = () => {
         </button>
       </div>
 
-      <button className="flex items-center px-4 py-2 bg-black text-white rounded-md text-sm">
-        <PlusCircle className="mr-2 h-4 w-4" />
-        Add Music
+      <button className="flex items-center px-4 py-3 bg-black text-white rounded-md text-sm">
+        <PlusCircle className="mr-2 max-[430px]:mr-0 h-4 w-4" />
+        <p className="max-[430px]:hidden">Add Music</p>{" "}
       </button>
     </div>
   );

@@ -51,48 +51,48 @@ export default function MusicApp() {
       id: "1",
       title: "Thinking Components",
       artist: "Lena Logic",
-      cover: "/placeholder.svg?height=300&width=300&text=🎧",
+      cover: "/assets/images/imgcard5.png",
     },
     {
       id: "2",
       title: "Functional Fury",
       artist: "Beth Binary",
-      cover: "/placeholder.svg?height=300&width=300&text=🎹",
+      cover: "/assets/images/imgcard6.png",
     },
     {
       id: "3",
       title: "React Rendezvous",
       artist: "Ethan Byte",
-      cover: "/placeholder.svg?height=300&width=300&text=🎤",
+      cover: "/assets/images/imgcard7.png",
     },
     {
       id: "4",
       title: "Stateful Symphony",
       artist: "Beth Binary",
-      cover: "/placeholder.svg?height=300&width=300&text=🎵",
+      cover: "/assets/images/imgcard8.png",
     },
     {
       id: "5",
       title: "Async Awakenings",
       artist: "Nina Netcode",
-      cover: "/placeholder.svg?height=300&width=300&text=🎸",
+      cover: "/assets/images/imgcard9.png",
     },
     {
       id: "6",
       title: "The Art",
       artist: "Ethan Byte",
-      cover: "/placeholder.svg?height=300&width=300&text=🎷",
+      cover: "/assets/images/imgcard5.png",
     },
     {
       id: "7",
       title: "React Rendezvous",
       artist: "Ethan Byte",
-      cover: "/placeholder.svg?height=300&width=300&text=🎼",
+      cover: "/assets/images/imgcard1.png",
     },
   ];
 
   return (
-    <div className="flex-1  overflow-auto">
+    <div className="flex-1  overflow-scroll">
       <div className="p-6">
         {/* Listen Now Section */}
         <div className="mb-10">
